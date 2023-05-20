@@ -44,3 +44,32 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+//envio de mensajes a email
+
+const form = document.getElementById("form");
+const sendMail = document.getElementById("emailA");
+
+function handleSendEmail(event) {
+  event.preventDefault();
+
+  const nameInput = document.getElementById("name");
+  const messageInput = document.getElementById("message");
+  const emailInput = document.getElementById("email");
+
+  const name = nameInput.value;
+  const message = messageInput.value;
+  const email = emailInput.value;
+
+  sendMail.setAttribute(
+    'href',
+    `mailto:yanicorc@gmail.com?subject=${encodeURIComponent(name)}&body=Nombre: ${encodeURIComponent(name)}%0D%0AEmail: ${encodeURIComponent(email)}%0D%0AMensaje: ${encodeURIComponent(message)}`
+  );
+
+  sendMail.click();
+
+  nameInput.value = "";
+  messageInput.value = "";
+  emailInput.value="";
+}
+
+form.addEventListener("submit", handleSendEmail);

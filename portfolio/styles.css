@@ -167,17 +167,27 @@ video{
 
 }
 .sobremi .contenido-seccion p{
-    font: 18px;
+    font: 30px;
     line-height: 22px;
     margin-bottom: 20px;
+    
 
 }
 .sobremi .contenido-seccion p span{
     color: #1CB698;
     font-weight: bold;
+    font-size: 30px;
+    
+}
+.sobremi button a{
+    text-decoration: none;
+    font-family:"Righteous" ;
+    font-size: 22px;
+    color: #fff;
 }
 .sobremi .fila{
     display: flex;
+    margin-top: 50px;
 }
 .sobremi .fila .col{
     width: 50%;
@@ -205,6 +215,7 @@ width: 130px;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
+    
 }
 .sobremi .fila .col .contenedor-intereses{
     display: flex;
@@ -229,13 +240,13 @@ transform: .3s;
     font-size: 30px;
     margin-bottom: 10px;
 }
-.sobremi button{
+.sobremi button {
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
     width: fit-content;
     display: block;
-    margin: 20px auto;
+    margin: 40px auto;
     padding: 10px 22px;
     font-size: 16px;
     color: #fff;
@@ -547,10 +558,12 @@ display: flex;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
 .portfolio .galeria .proyecto{
     position: relative;
-    max-width: 340px;
+    width: 340px;
+    height: 3400px;
     height: fit-content;
     margin: 10px;
     cursor: pointer;
