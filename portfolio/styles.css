@@ -31,7 +31,7 @@ html{
 .contenedor-header header .logo a{
 font-family: "Righteous";
 font-size: 36px;
-color: #1CB698;
+color: #FCAA7E;
 text-decoration: none;
 }
 .contenedor-header header ul{
@@ -49,11 +49,11 @@ text-decoration: none;
 
 }
 .contenedor-header header nav ul li a:hover{
-    color: #1CB698;
+    color: #FCAA7E;
 
 }
 .nav-responsive{
-background-color: #1CB698;
+background-color: #FCAA7E;
 color: #fff;
 padding: 5px 10px;
 border-radius: 5px;
@@ -105,7 +105,7 @@ video{
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 3px solid #252A2E;
+    border: 3px solid #FFD6C0;
     display: block;
     width: 60%; 
     margin-bottom:50px ;
@@ -147,7 +147,7 @@ video{
     
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #1CB698;
+    background-color: #FCAA7E;
 }
 
 .sobremi{
@@ -175,7 +175,7 @@ video{
 
 }
 .sobremi .contenido-seccion p span{
-    color: #1CB698;
+    color: #FCAA7E;
     font-weight: bold;
     font-size: 30px;
     
@@ -207,12 +207,12 @@ video{
 }
 .sobremi .fila .col ul li strong{
 display: inline-block;
-color: #1CB698;
+color: #FCAA7E;
 width: 130px;
 
 }
 .sobremi .fila .col ul li span{
-    background-color: #1CB698;
+    background-color: #FCAA7E;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -235,7 +235,7 @@ justify-content: center;
 transform: .3s;
 }
 .sobremi .fila .col .contenedor-intereses .intereses:hover{
-    background-color: #1CB698;
+    background-color: #FCAA7E;
 }
 .sobremi .fila .col .contenedor-intereses .intereses i{
     font-size: 30px;
@@ -261,7 +261,7 @@ transform: .3s;
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #FCAA7E;
     z-index: -1;
     transition: 1s;
 
@@ -316,7 +316,7 @@ display: flex;
     margin-bottom: 30px;
 }
 .skills .skill .progreso{
-    background-color: #1CB698;
+    background-color: #FFD6C0;
     position: absolute;
     top: 0;
     left: 0;
@@ -327,7 +327,7 @@ display: flex;
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #1CB698;
+    background-color: #FCAA7E;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -480,30 +480,30 @@ display: flex;
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color: #1CB698;
+    color: #FCAA7E;
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .curriculum .fila .item .fecha{
     display: block;
-    color: #1CB698;
+    color: #FCAA7E;
     margin-bottom: 10px;
 }
 .curriculum .fila .item p{
     line-height: 24px;
 }
 .curriculum .fila .izq{
-    border-right: 2px solid #1CB698;
+    border-right: 2px solid #FCAA7E;
     margin-right: 20px;
 }
 .curriculum .fila .der{
-    border-left: 2px solid #1CB698;
+    border-left: 2px solid #FCAA7E;
     margin-left: 20px;
 }
 .curriculum .fila .item .conectori{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #FFD6C0;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -515,14 +515,14 @@ display: flex;
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #FFD6C0;
     float: right;
     position: relative;
     bottom: 4px;
 }
 .curriculum .fila .item .conectord{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #FFD6C0;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -534,7 +534,7 @@ display: flex;
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #FFD6C0;
     float: left;
     position: relative;
     bottom: 4px;
@@ -579,7 +579,7 @@ display: flex;
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
+    background: linear-gradient(rgba(252, 170, 126,.8), rgba(252, 170, 126,.8));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -653,7 +653,7 @@ display: flex;
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #FCAA7E;
     z-index: -1;
     transition: 1s;
 }
@@ -679,7 +679,7 @@ display: flex;
     margin-bottom: 20px;
 }
 .contacto .col .info ul li i{
-    color: #1CB698;
+    color: #FCAA7E;
     display: inline-block;
     margin-right: 20px;
 }
@@ -708,13 +708,13 @@ footer .redes a{
     transition: .3s;
 }
 footer .redes a:hover{
-    background-color: #1CB698;
+    background-color: #FCAA7E;
 }
 footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #1CB698;
+    background-color: #FCAA7E;
     color: #fff;
     position: absolute;
     left: 50%;
