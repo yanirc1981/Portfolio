@@ -32,7 +32,9 @@ function efectoHabilidades(){
         habilidades[8].classList.add("trabajo");
         habilidades[9].classList.add("creatividad");
         habilidades[10].classList.add("resolucion");
-        habilidades[11].classList.add("dedicacion");
+        habilidades[11].classList.add("desarrollo");
+        habilidades[12].classList.add("dedicacion");
+        habilidades[13].classList.add("disciplina");
         
         
         

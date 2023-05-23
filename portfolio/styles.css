@@ -150,98 +150,40 @@ video{
     background-color: #FCAA7E;
 }
 
-.sobremi{
+
+.perfil{
     background-color: #1e2326;
     color: #fff;
     padding: 50px 20px;
 
 }
-.sobremi .contenido-seccion{
+.perfil .contenido-seccion{
     max-width: 1100px;
     margin: auto;
 }
-.sobremi h2{
+.perfil h2{
     font-size: 48px;
     font-family: "Righteous";
     text-align: center;
     padding: 20px 0;
 
 }
-.sobremi .contenido-seccion p{
-    font: 30px;
-    line-height: 22px;
-    margin-bottom: 20px;
-    
+.perfil .contenido-seccion p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    font-family:'Segoe UI';
 
 }
-.sobremi .contenido-seccion p span{
+.perfil .contenido-seccion  span{
     color: #FCAA7E;
     font-weight: bold;
     font-size: 30px;
-    
-}
-.sobremi button a{
-    text-decoration: none;
-    font-family:"Righteous" ;
-    font-size: 22px;
-    color: #fff;
-}
-.sobremi .fila{
-    display: flex;
-    margin-top: 50px;
-}
-.sobremi .fila .col{
-    width: 50%;
-}
-
-.sobremi .fila .col h3{
-    font-size: 28px;
     font-family: "Righteous";
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
-.sobremi .fila .col ul{
-    list-style: none;
-}
-.sobremi .fila .col ul li{
-    margin: 12px 0;
-}
-.sobremi .fila .col ul li strong{
-display: inline-block;
-color: #FCAA7E;
-width: 130px;
 
-}
-.sobremi .fila .col ul li span{
-    background-color: #FCAA7E;
-    padding: 3px;
-    font-weight: bold;
-    border-radius: 5px;
-    
-}
-.sobremi .fila .col .contenedor-intereses{
-    display: flex;
-    flex-wrap: wrap;
-}
-.sobremi .fila .col .contenedor-intereses .intereses{
-width: 100px;
-height: 100px;
-background-color: #252A2E;
-border-radius: 10px;
-margin: 0 15px 15px 0;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-transform: .3s;
-}
-.sobremi .fila .col .contenedor-intereses .intereses:hover{
-    background-color: #FCAA7E;
-}
-.sobremi .fila .col .contenedor-intereses .intereses i{
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-.sobremi button {
+.perfil button {
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
@@ -255,7 +197,7 @@ transform: .3s;
     z-index: 10;
 
 }
-.sobremi button .overlay{
+.perfil button .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -266,9 +208,114 @@ transform: .3s;
     transition: 1s;
 
 }
-.sobremi button:hover .overlay{
+.perfil button a{
+    text-decoration: none;
+    font-family:"Righteous" ;
+    font-size: 22px;
+    color: #fff;
+}
+.perfil button:hover .overlay{
     width: 100%;
 
+}
+
+
+
+
+
+
+.intereses{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 20px;
+   
+   
+}
+.intereses .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+ 
+   
+}
+.intereses h2{
+    font-size: 48px;
+    font-family: "Righteous";
+    text-align: center;
+    padding: 20px 0;
+
+}
+.intereses .contenido-seccion p{
+    font: 30px;
+    line-height: 40px;
+    margin-bottom: 40px;
+   
+
+}
+.intereses .contenido-seccion p span{
+    color: #FCAA7E;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.intereses .fila{
+    display: flex;
+    margin-top: 50px;
+   
+}
+.intereses .fila .col{
+  width: 50px;
+}
+
+.intereses .fila .col ul{
+    list-style: none;
+}
+.intereses .fila .col ul li{
+    margin: 12px 0;
+}
+
+.intereses .fila .col ul li {
+display: inline-block;
+color: #FCAA7E;
+width: 130px;
+
+}
+.intereses .fila .col ul li span{
+    background-color: #FCAA7E;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+.intereses .contenedor-intereses{
+    display: flex;
+    flex-wrap: wrap;
+}
+.intereses .fila .col {
+    display:flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    justify-content: center;
+    
+}
+.intereses .fila .col .contenedor-intereses .intereses{
+width: 100px;
+height: 100px;
+background-color: #1e2326;
+border-radius: 10px;
+margin: 0 15px 15px 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+transform: .3s;
+}
+.intereses .fila .col .contenedor-intereses .intereses:hover{
+    background-color: #FCAA7E;
+}
+.intereses .fila .col .contenedor-intereses .intereses i{
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 /*seccion skills*/
@@ -424,11 +471,28 @@ display: flex;
     0%{width: 0%;}
     100%{width: 90%;}
 }
+.skills .skill .desarrollo{
+    width: 0%;
+    animation: 2s desarrollo forwards;
+}
+@keyframes dedicacion{
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
 .skills .skill .dedicacion{
     width: 0%;
     animation: 2s dedicacion forwards;
 }
-@keyframes dedicacion{
+@keyframes desarrollo{
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .disciplina{
+    width: 0%;
+    animation: 2s disciplina forwards;
+}
+@keyframes disciplina{
     0%{width: 0%;}
     100%{width: 100%;}
 }
@@ -450,6 +514,7 @@ display: flex;
     padding: 20px 0;
 
 }
+
 .curriculum .fila{
     display: flex;
     justify-content: space-between;
@@ -492,6 +557,7 @@ display: flex;
 }
 .curriculum .fila .item p{
     line-height: 24px;
+    
 }
 .curriculum .fila .izq{
     border-right: 2px solid #FCAA7E;
@@ -541,7 +607,7 @@ display: flex;
 }
 /* SECCION PORTFOLIO */
 .portfolio{
-    background-color: #252A2E;
+    background-color: #1e2326;
     color: #fff;
     padding: 50px 20px;
 }
@@ -602,7 +668,7 @@ display: flex;
 /* SECCION CONTACTO */
 .contacto{
     
-    background-color: #1e2326;
+    background-color: #252A2E;
     color: #fff;
     padding: 50px 0;
 }
@@ -630,7 +696,7 @@ display: flex;
     padding: 18px;
     border: none;
     margin-bottom: 20px;
-    background-color: #252A2E;
+    background-color: #1e2326;
     color: #fff;
     font-size: 18px;
 }
@@ -749,12 +815,13 @@ footer .arriba{
     }
 }
 @media screen and (max-width:700px){
-    .sobremi .fila{
+    .intereses .fila{
         display: block;
     }
-    .sobremi .fila .col{
+    .intereses .fila .col{
         width: fit-content;
     }
+   
 
     .skills .fila{
         display: block;
@@ -795,5 +862,7 @@ footer .arriba{
 }
 
 
+ 
+  
 
 
