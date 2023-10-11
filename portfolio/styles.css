@@ -669,6 +669,7 @@ video {
   opacity: 0;
 }
 .portfolio .galeria .proyecto .overlay h3 {
+  color: #fff;
   margin-bottom: 20px;
   transition: 1s;
 }
